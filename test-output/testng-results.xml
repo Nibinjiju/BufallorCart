@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T14:05:35 IST" name="Suite" finished-at="2022-01-31T14:06:52 IST" duration-ms="77346">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T14:05:35 IST" name="Test" finished-at="2022-01-31T14:06:52 IST" duration-ms="77346">
+      <class name="Test.LoginTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:05:35 IST" name="beforeClass" finished-at="2022-01-31T14:06:05 IST" duration-ms="30299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="base()[pri:0, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:05 IST" name="base" finished-at="2022-01-31T14:06:05 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="verifyloginTitle()[pri:1, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:05 IST" name="verifyloginTitle" description="TC_001_Verify Login Page title" finished-at="2022-01-31T14:06:05 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginTitle -->
+        <test-method signature="rememberMecheckBox()[pri:2, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:05 IST" name="rememberMecheckBox" description="TC_002_Verify checkBox is selected" finished-at="2022-01-31T14:06:05 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberMecheckBox -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:09 IST" name="verifyLoginWithInValidCredentials" description="TC_003_Verify Login With Invalid credentials" data-provider="dp2" finished-at="2022-01-31T14:06:13 IST" duration-ms="4273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nnibin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method signature="verfiyResetPasswordPage()[pri:4, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:13 IST" name="verfiyResetPasswordPage" description="TC_004_Verify error message displayed on reset password page with invalid email id" finished-at="2022-01-31T14:06:18 IST" duration-ms="5103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyResetPasswordPage -->
+        <test-method signature="verifyForgotPassword()[pri:5, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:18 IST" name="verifyForgotPassword" description="TC_005_Verify Forgot Password Valid credentials" finished-at="2022-01-31T14:06:23 IST" duration-ms="4961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:6, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:23 IST" name="verifyLoginWithValidCredentials" description="TC_005_Verify Login With Valid credentials" data-provider="dp1" finished-at="2022-01-31T14:06:48 IST" duration-ms="24551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test.LoginTest@f0c8a99]" started-at="2022-01-31T14:06:48 IST" name="afterClass" finished-at="2022-01-31T14:06:52 IST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
