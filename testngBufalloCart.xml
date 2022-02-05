@@ -5,17 +5,17 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			 <class name="Test.LoginTest"/> 
-			<!-- <class name="Test.HomeTest"/> -->
-			<!-- <class name="Test.StockManagmentTest"/> -->
-			<!-- <class name="Test.SignOutTest"/> 
-			<!- <class name="Test.AddClientTest"/>  -->
-			 <!-- <class name="Test.ClientTest"/> -->
-			  <!--  <class name="Test.EditClientTest"/> -->
-			<!-- <class name="Test.EditUserTest"/> -->
-			 <!--<class name="Test.DeleteUserTest"/> -->
-			<!--   <class name="Test.BannedUserTest"/> -->
+			<class name="Test.HomeTest"/> 
+			 <class name="Test.StockManagmentTest"/> 
+			<class name="Test.SignOutTest"/> 
+			<!--  <class name="Test.AddClientTest"/>  -->
+			  <class name="Test.ClientTest"/> 
+			   <class name="Test.EditClientTest"/> 
+			 <class name="Test.EditUserTest"/> 
+			 <class name="Test.DeleteUserTest"/> 
+			    <class name="Test.BannedUserTest"/> 
 			 	<!--  <class name="Test.AddUserTest"/>-->
-			<!-- <class name="Test.UserSignInTest"/> -->
+			<class name="Test.UserSignInTest"/> 
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

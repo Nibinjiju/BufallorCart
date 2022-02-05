@@ -10,7 +10,7 @@ import Page.AddClientPage;
 import Utility.ExcelData;
 
 public class AddClientTest extends Base {
-	@Test(priority=1)
+	@Test(priority=1,description="TC_027_Verify user can add new client ")
 	public void login() {
 		AddClientPage ad=new AddClientPage(driver);
 		  ad.login();

@@ -14,7 +14,7 @@ import Utility.ExcelData;
 public class AddUserTest extends Base{
   
 
-@Test(priority=1) 
+@Test(priority=1,description="TC_028_Verify user can add new user ") 
 public void user1() {
 	 AddUserPage us=new AddUserPage(driver);
 	  us.login();

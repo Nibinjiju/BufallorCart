@@ -8,7 +8,7 @@ import Page.DeleteUserPage;
 
 public class DeleteUserTest extends Base {
 
-	 @Test(priority=24,description="TC_0124_Verify user can delete user ")
+	 @Test(priority=24,description="TC_024_Verify user can delete user ")
 	  public void User() {
 		  DeleteUserPage delete=new DeleteUserPage(driver);
 		  delete.login();

@@ -59,6 +59,8 @@ public class EditClientPage {
 	private WebElement delete;
 	
 	
+	
+	
 	@FindBy(xpath="//button[@class='btn-block btn btn-danger']")
 	private WebElement proceedanyway;
 	

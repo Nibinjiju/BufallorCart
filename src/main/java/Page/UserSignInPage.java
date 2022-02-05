@@ -47,5 +47,8 @@ public class UserSignInPage {
 		 return img.getText() ;
 		
 	}
+	public String title() {
+		return driver.getTitle();
+	}
 
 }

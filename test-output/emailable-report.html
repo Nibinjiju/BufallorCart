@@ -9,16 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77,346</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">35,360</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Test.LoginTest</td><td><a href="#m0">base</a></td><td rowspan="1">1643618165400</td><td rowspan="1">9</td></tr><tr class="passedeven"><td><a href="#m1">rememberMecheckBox</a></td><td rowspan="1">1643618165513</td><td rowspan="1">457</td></tr><tr class="passedeven"><td><a href="#m2">verfiyResetPasswordPage</a></td><td rowspan="1">1643618173465</td><td rowspan="1">5103</td></tr><tr class="passedeven"><td><a href="#m3">verifyForgotPassword</a></td><td rowspan="1">1643618178571</td><td rowspan="1">4961</td></tr><tr class="passedeven"><td><a href="#m4">verifyLoginWithInValidCredentials</a></td><td rowspan="1">1643618169188</td><td rowspan="1">4273</td></tr><tr class="passedeven"><td><a href="#m5">verifyLoginWithValidCredentials</a></td><td rowspan="1">1643618183717</td><td rowspan="1">24551</td></tr><tr class="passedeven"><td><a href="#m6">verifyloginTitle</a></td><td rowspan="1">1643618165427</td><td rowspan="1">82</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Test.UserSignInTest</td><td><a href="#m0">verifyUserCanLoginWithNewAddedUser</a></td><td rowspan="1">1644029817371</td><td rowspan="1">14549</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Test.UserSignInTest</td><td><a href="#m1">base</a></td><td rowspan="1">1644029817310</td><td rowspan="1">23</td></tr><tr class="passedeven"><td><a href="#m2">verifyTitleOfUserSignIn</a></td><td rowspan="1">1644029832003</td><td rowspan="1">79</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">Test.LoginTest#base</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Test.LoginTest#rememberMecheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Test.LoginTest#verfiyResetPasswordPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Test.LoginTest#verifyForgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Test.LoginTest#verifyLoginWithInValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nnibin</td><td>11122</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Test.LoginTest#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Test.LoginTest#verifyloginTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Test.UserSignInTest#verifyUserCanLoginWithNewAddedUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;https://erp.buffalocart.com/login/logout&quot;]&quot;}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-UCNIV3S&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9825bb99ac0840af861e2bea2402d764, findElement {using=xpath, value=//a[@href=&quot;https://erp.buffalocart.com/login/logout&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60988/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9825bb99ac0840af861e2bea2402d764
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at Page.UserSignInPage.login(UserSignInPage.java:40)
+	at Test.UserSignInTest.verifyUserCanLoginWithNewAddedUser(UserSignInTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Test.UserSignInTest#base</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Test.UserSignInTest#verifyTitleOfUserSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
